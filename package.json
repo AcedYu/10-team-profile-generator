@@ -1,0 +1,24 @@
+{
+  "name": "10-team-profile-generator",
+  "version": "1.0.0",
+  "description": "This assignment was assigned by the U.C. Berkeley Extension Full-time Full Stack Flex Boot Camp. This is assignment 10 for the program. In this assignment I created a command line application that generates an HTML containing team creation information. The program takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. This program also features test driven development using jest.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AcedYu/10-team-profile-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AcedYu/10-team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/AcedYu/10-team-profile-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "jest": "^26.6.3"
+  }
+}
