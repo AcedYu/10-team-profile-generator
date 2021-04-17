@@ -4,7 +4,7 @@
   "description": "This assignment was assigned by the U.C. Berkeley Extension Full-time Full Stack Flex Boot Camp. This is assignment 10 for the program. In this assignment I created a command line application that generates an HTML containing team creation information. The program takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. This program also features test driven development using jest.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
