@@ -1,20 +1,19 @@
 // Tests for class Intern
 const Intern = require('../lib/Intern');
 
+// Globally define the example
+const example = new Intern('Bob', 1, 'bob@email.com', 'UC Berkeley');
+const expectedName = 'Bob';
+const expectedid = 1;
+const expectedEmail = 'bob@email.com';
+const expectedSchool = 'UC Berkeley';
+
 describe("Intern class", () => {
   it("Should contain all of the necessary parameter values.", () => {
-    const example = new Intern('Bob', 1, 'bob@email.com', 'UC Berkeley');
 
-    const expectedName = 'Bob';
     const actualName = example.name;
-
-    const expectedid = 1;
     const actualid = example.id;
-
-    const expectedEmail = 'bob@email.com';
     const actualEmail = example.email;
-
-    const expectedSchool = 'UC Berkeley';
     const actualSchool = example.school;
 
     expect(expectedName).toEqual(actualName);
@@ -23,9 +22,31 @@ describe("Intern class", () => {
     expect(expectedSchool).toEqual(actualSchool);
   });
 
+  describe("Functions", () => {
+    it("getName should return the name", () => {
+      expect(example.getName()).toEqual(expectedName);
+    });
+
+    it("getId should return the id", () => {
+      expect(example.getId()).toEqual(expectedid);
+    });
+
+    it("getEmail should return the email", () => {
+      expect(example.getEmail()).toEqual(expectedEmail);
+    });
+
+    it("getGithub should return the github", () => {
+      expect(example.getSchool()).toEqual(expectedSchool);
+    });
+
+    it("getRole should be 'Intern'", () => {
+      expect(example.getRole()).toEqual('Intern');
+    });
+  });
+
   describe("card", () => {
     it("Should return a string", () => {
-      const example = new Intern('Bob', 1, 'bob@email.com', 'UC Berkeley');
+
       const cardReturnType = typeof(example.card());
 
       expect(cardReturnType).toBe('string');
