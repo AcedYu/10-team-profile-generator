@@ -5,21 +5,21 @@ This is assignment 10 for the program. In this assignment I created a command li
 It contains notable features such as:
 - high quality HTML generation based on user input
 - user input prompts for
- - Team Manager
-   - name
-   - employee ID
-   - email address
-   - office number
- - Engineer member
-   - name
-   - employee ID
-   - email address
-   - github username
- - Intern member
-   - name
-   - employee ID
-   - email address
-   - school
+  - Team Manager
+    - name
+    - employee ID
+    - email address
+    - office number
+  - Engineer member
+    - name
+    - employee ID
+    - email address
+    - github username
+  - Intern member
+    - name
+    - employee ID
+    - email address
+    - school
 - user input begins with Team Manager and then prompts for user choice to add additional Engineers and/or interns
 
 Due: Monday, April 19, 2021 11:59 PM
