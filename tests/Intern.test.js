@@ -35,7 +35,7 @@ describe("Intern class", () => {
       expect(example.getEmail()).toEqual(expectedEmail);
     });
 
-    it("getGithub should return the github", () => {
+    it("getSchool should return the school", () => {
       expect(example.getSchool()).toEqual(expectedSchool);
     });
 
